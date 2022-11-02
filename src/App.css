@@ -6,8 +6,31 @@
 }
 
 .App {
-  text-align: center;
+  text-align: left;
   font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  padding: 1em 0;
+  /* border: 1px solid red; */
+}
+.container {
+  /* border: 1px solid red; */
+  width: 90%;
+  margin: auto;
 }
 
-
+/* TitleComponent */
+.title-section p {
+  padding-bottom: 1em;
+}
+.title-section > div:nth-child(1) {
+  border-bottom: 1px solid #333;
+}
+.desktop-switch {
+  display: none;
+}
+.mobile-switch {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1em;
+}
