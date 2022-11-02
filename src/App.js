@@ -1,14 +1,23 @@
+import {createContext, useState} from 'react';
 import TitleComponent from './Components/title-component';
-
 import './App.css';
 
+export const ThemeContext = createContext(null);
+
+
 function App() {
+  const [theme, setTheme] = useState("light");
+
+  const toggleTheme = () => {
+    setTheme((current) => (current === "light" ? "dark" : "light"));
+  }
+
   return (
-    <div className="App">
-      <div className="container">
-        <TitleComponent />
+      <div className="App" id={theme}>
+        <div className="container">
+          <TitleComponent toggleTheme={toggleTheme} />
+        </div>
       </div>
-    </div>
   );
 }
 
