@@ -1,6 +1,8 @@
 import {createContext, useState} from 'react';
 import TitleComponent from './Components/title-component';
 import './App.css';
+import MainCards from './Components/main-cards';
+import SecondaryCards from './Components/secondary-cards';
 
 export const ThemeContext = createContext(null);
 
@@ -16,6 +18,8 @@ function App() {
       <div className="App" id={theme}>
         <div className="container">
           <TitleComponent toggleTheme={toggleTheme} />
+          <MainCards />
+          <SecondaryCards />
         </div>
       </div>
   );

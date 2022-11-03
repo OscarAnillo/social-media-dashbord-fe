@@ -15,6 +15,7 @@
 .container {
   /* border: 1px solid red; */
   width: 90%;
+  max-width: 350px;
   margin: auto;
 }
 
@@ -57,7 +58,7 @@
 
 
 #dark {
-  background-color: rgb(32, 34, 47);
+  background-color: rgb(29, 32, 41);
 }
 
 #dark .main-title {
@@ -72,4 +73,125 @@
 #dark .mobile-switch p {
   color: hsl(228, 34%, 66%);
   font-weight: 700;
+}
+
+/* MainCards */
+#dark .card {
+  background-color: rgb(37, 43, 67);
+  border-radius: 5px;
+  margin: 1em 0;
+  padding: 1.5em 0;
+  position: relative;
+  text-align: center;
+}
+
+.card-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social {
+  margin-right: .6em;
+}
+.username {
+  color: hsl(228, 34%, 66%);
+  font-size: .8rem;
+  font-weight: 400;
+}
+.number {
+  color: #fff;
+  font-weight: 700;
+  font-size: 4rem;
+  margin: .5em 0;
+}
+.number span {
+  color: hsl(228, 34%, 66%);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 62%;
+  left: 32%;
+}
+.arrow {
+  padding-top: 1em;
+  margin-right: .3em;
+}
+.new {
+  color: #fff;
+  font-weight: 400;
+  font-size: .8rem;
+  padding-top: 1em;
+}
+.green {
+  color: green;
+  font-weight: 400;
+  font-size: .8rem;
+  padding-top: 1em;
+} 
+.face {
+  border-top: 3px solid hsl(208, 92%, 53%);
+}
+.twit {
+  border-top: 3px solid hsl(203, 89%, 53%);
+}
+.insta {
+  border-top: 3px solid orange;
+}
+.tube {
+  border-top:  3px solid hsl(348, 97%, 39%);
+}
+.tube > div:last-child p {
+  color: red;
+}
+
+
+/* SecondaryCards */
+#dark .secondary-title {
+  color: #fff;
+  padding: 1.5em 0;
+}
+#dark .secondary-card {
+  background-color: rgb(37, 43, 67);
+  border-radius: 5px;
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+.secondary-card > div {
+  width: 49%;
+  height: 2.1em;
+  /* border: 1px solid red; */
+}
+.secondary-card > div:nth-child(2) {
+  text-align: right;
+}
+.secondary-card > div:nth-child(4) {
+  text-align: right;
+}
+.test {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#dark .activity {
+  color: hsl(228, 34%, 66%);
+  font-weight: 700;
+}
+#dark .secondary-num {
+  color: #fff;
+  font-size: 2rem;
+}
+.secondary-arrow {
+  position: relative;
+  top: 5px;
+  margin-right: .2em;
+}
+.red {
+  color: red;
 }
