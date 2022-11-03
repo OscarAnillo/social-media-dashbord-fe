@@ -10,6 +10,7 @@
   font-family: 'Inter', sans-serif;
   min-height: 100vh;
   padding: 1em 0;
+  overflow: hidden;
 }
 .container {
   width: 90%;
@@ -20,6 +21,7 @@
 /* TitleComponent */
 .title-section {
   display: block;
+  padding: 1em 1.3em;
 }
 .title-section p {
   padding-bottom: 1em;
@@ -256,16 +258,39 @@
 }
 
 @media(min-width: 1000px) { 
+
   .container {
     width: 90%;
     max-width: 1275px;
     margin: auto;
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    /* border: 1px solid red; */
   }
-  .title-section {
+  #light .title-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 3em 0 4em 0;
+    margin: 0 0 1em 0;
+    padding: 1em ;
+    background-color: rgb(248, 249, 254);
+    position: relative;
+    top: -35px;
+    width: 100%;
+    height: 250px;
+  }
+  #dark .title-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 1em 0;
+    padding: 1em ;
+    background-color: rgb(32, 34, 47);
+    position: relative;
+    top: -35px;
+    width: 100%;
+    height: 250px;
   }
   .title-section p {
     padding-bottom: 0;
@@ -276,15 +301,31 @@
 
   #light .main-title {
     font-size: 2.5rem;
+    padding-left: 6.6em;
     padding-bottom: .2em;
+  }
+  #light .follower {
+    padding-left: 16.6em;
+    
   }
   #light .secondary-num {
     color: #000;
     font-size: 2rem;
   }
+  #light .mobile-switch {
+    padding-right: 21.5em;
+  }
+
   #dark .main-title {
     font-size: 2.5rem;
+    padding-left: 6.6em;
     padding-bottom: .2em;
+  }
+  #dark .follower {
+    padding-left: 16.6em;
+  }
+  #dark .mobile-switch {
+    padding-right: 21.5em;
   }
   .desktop-row {
     display: flex;

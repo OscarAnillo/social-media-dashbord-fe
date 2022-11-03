@@ -1,9 +1,10 @@
 import {createContext, useState} from 'react';
+
 import TitleComponent from './Components/title-component';
-import './App.css';
 import MainCards from './Components/main-cards';
 import SecondaryCards from './Components/secondary-cards';
 
+import './App.css';
 export const ThemeContext = createContext(null);
 
 
@@ -16,8 +17,8 @@ function App() {
 
   return (
       <div className="App" id={theme}>
-        <div className="container">
           <TitleComponent theme={theme} toggleTheme={toggleTheme} />
+        <div className="container">
           <MainCards />
           <SecondaryCards />
         </div>
