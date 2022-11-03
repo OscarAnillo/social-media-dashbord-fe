@@ -17,7 +17,7 @@ function App() {
   return (
       <div className="App" id={theme}>
         <div className="container">
-          <TitleComponent toggleTheme={toggleTheme} />
+          <TitleComponent theme={theme} toggleTheme={toggleTheme} />
           <MainCards />
           <SecondaryCards />
         </div>
