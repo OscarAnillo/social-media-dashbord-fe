@@ -1,6 +1,6 @@
 import { MaterialUISwitch } from '../Components/common/switch-component';
 
-export default function TitleComponent({toggleTheme}){
+export default function TitleComponent({theme, toggleTheme}){
     return (
         <section className='title-section'>
            <div>
@@ -13,7 +13,7 @@ export default function TitleComponent({toggleTheme}){
             </div>
             <div className="mobile-switch">
                 <div>
-                    <p>Dark Mode</p>
+                    <p>{theme === "light" ? "Dark" : "Light"} Mode</p>
                 </div>
                 <div>
                 <MaterialUISwitch onChange={toggleTheme} />

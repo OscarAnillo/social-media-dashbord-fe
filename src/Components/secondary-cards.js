@@ -1,3 +1,4 @@
+import 'animate.css';
 import data from '../Data/secondary-data.json';
 
 export default function SecondaryCards(){
@@ -6,7 +7,7 @@ export default function SecondaryCards(){
             <h1 className='secondary-title'>Overview - Today</h1>
             <div className='desktop-row'>
                 {data.map(item => (
-                    <div key={item.id} className="secondary-card">
+                    <div key={item.id} className="secondary-card animate__animated animate__fadeInUp">
                         <div>
                             <p className='activity'>{item.activity}</p>
                         </div>
