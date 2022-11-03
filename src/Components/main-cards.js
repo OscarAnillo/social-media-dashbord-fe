@@ -2,7 +2,7 @@ import data from '../Data/main-data.json';
 
 export default function MainCards(){
     return (
-        <div>
+        <div className="desktop-row">
             {data.map(item => (
                 <div key={item.id} className={`${item.className} card`}>
                     <div className="card-row">

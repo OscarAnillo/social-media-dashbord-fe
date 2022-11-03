@@ -4,7 +4,7 @@ export default function SecondaryCards(){
     return (
         <section>
             <h1 className='secondary-title'>Overview - Today</h1>
-            <div>
+            <div className='desktop-row'>
                 {data.map(item => (
                     <div key={item.id} className="secondary-card">
                         <div>
