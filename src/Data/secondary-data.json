@@ -1,0 +1,66 @@
+[
+    {
+        "id":"1",
+        "activity":"Page Views",
+        "social":"images/icon-facebook.svg",
+        "number_activity":"87",
+        "arrow":"images/icon-up.svg",
+        "final_number":"3"
+    },
+    {
+        "id":"2",
+        "activity":"Likes",
+        "social":"images/icon-facebook.svg",
+        "number_activity":"52",
+        "arrow":"images/icon-down.svg",
+        "final_number":"2"
+    },
+    {
+        "id":"3",
+        "activity":"Likes",
+        "social":"images/icon-instagram.svg",
+        "number_activity":"5462",
+        "arrow":"images/icon-up.svg",
+        "final_number":"2257"
+    },
+    {
+        "id":"4",
+        "activity":"Profile Views",
+        "social":"images/icon-instagram.svg",
+        "number_activity":"52K",
+        "arrow":"images/icon-up.svg",
+        "final_number":"1375"
+    },
+    {
+        "id":"5",
+        "activity":"Retweets",
+        "social":"images/icon-twitter.svg",
+        "number_activity":"117",
+        "arrow":"images/icon-up.svg",
+        "final_number":"303"
+    },
+    {
+        "id":"6",
+        "activity":"Likes",
+        "social":"images/icon-twitter.svg",
+        "number_activity":"507",
+        "arrow":"images/icon-up.svg",
+        "final_number":"553"
+    },
+    {
+        "id":"7",
+        "activity":"Likes",
+        "social":"images/icon-youtube.svg",
+        "number_activity":"107",
+        "arrow":"images/icon-down.svg",
+        "final_number":"19"
+    },
+    {
+        "id":"8",
+        "activity":"Total Views",
+        "social":"images/icon-youtube.svg",
+        "number_activity":"1407",
+        "arrow":"images/icon-down.svg",
+        "final_number":"12"
+    }
+]
