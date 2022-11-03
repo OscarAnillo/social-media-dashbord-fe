@@ -55,7 +55,45 @@
   color: hsl(228, 34%, 66%);
   font-weight: 700;
 }
+#light .card {
+  background-color: rgb(240, 243, 250);
+  border-radius: 5px;
+  margin: 1em 0;
+  padding: 1.5em 0;
+  position: relative;
+  text-align: center;
+}
+#light .number {
+  color: #000;
+  font-weight: 700;
+  font-size: 4rem;
+}  
 
+#light .new {
+  color: green;
+  font-weight: 400;
+  font-size: .8rem;
+  padding-top: 1em;
+}
+
+#light .secondary-title {
+  color: rgb(101, 103, 118);
+  padding: 1.5em 0;
+}
+#light .secondary-card {
+  background-color: rgb(240, 243, 250);
+  border-radius: 5px;
+  padding: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 1em 0;
+}
+#light .activity {
+  color: hsl(228, 34%, 66%);
+  font-weight: 700;
+}
 
 #dark {
   background-color: rgb(29, 32, 41);
